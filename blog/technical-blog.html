@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Technical Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <style>
+  body {
+background-image: url('sea.jpg');
+}
+body {
+  font-family: "Shippori Antique", sans-serif;
+}
+
+ul {
+  text-align: left;
+}
+  </style>
+</head>
+
+
+<body class="Techical Blog">
+<header>
+  <a class="Homepage" href="blog.html" style="float:right" > <h1>HOMEPAGE</h1>
+  </a>
+  
+    <h1>Classes...id<span style="font-size: 80%">s </span> ...who understands em?!</h1>
+<h2><em>What are the best practices associated with using classes vs. ids? </em>
+</h2>
+</header>
+<br>
+<br>
+<h3>What are <em>classes</em> and<em> ids</em> to begin with?</h3>
+<div class="class-id">
+<p>Classes and IDs are selectors within HTML and CSS which enable the user to choose which sections of code to apply certain rules or styling to. They make it possible to change the colour of text or change how an element is aligned on a page. Classes and IDs serve slightly different purposes which well get into next. </p>
+
+</div>
+
+<br>
+
+<h3>What is a <em>class</em> ?</h3>
+<div class="class-id">
+<p> A class is essentially a descriptor you can apply to an element to direct that element how to behave. In HTML you can write a class, and then in CSS you can define what that class will do to the element, such as change background colour of text, or create a border for an image. If you like how the class is performing on that element you can apply the same class to other elements on your page. For example, if you would like every second image to have a blue border, you can create a class "blue-border” and apply it to the images in HTML that you want to have the blue border. Then in CSS you can apply the styling to the class “blue-border”. </p>
+<p>To observe this syntax, here is an example of the “blue-border” class in HTML, and then in CSS: </p>
+<p>HTML:</p>
+<img src="Class%20HTML.png" alt="Class syntax in HTML" width="35%">
+<p>CSS:</p>
+<img src="Class%20CSS.png" alt="Class syntax in CSS" width="35%">
+<br>
+<p>There is no limit on how many classes can be used in HTML, in this sense they are more flexible, but less powerful than IDs in that IDs have the ability to over-ride a class.</p>
+</div >
+
+
+<br>
+<h3>What is an <em>id </em>?</h3>
+
+<div class="class-id">
+  <p>IDs are used for a single unique element. There can only be one ID per page of HTML. IDs serve many functions that are similar to classes, with some key differences. The use of an ID in an HTML document is to point to a specific style declaration. </p>
+  <p>As we have mentioned, IDs are special and can only be used once per page. Part of their specificity is that they have precedence over classes on the page. If your ID directs an element to do one thing, such as make all text green, and then a class directs to make text red, the text will remain green because the ID takes precedence and is more powerful. </p>
+  <p>Depending on how you apply an ID to an element, you can use the ID as a function to jump to a specific section of a page. The ID can act as a pointer to a desired location. For example, I’m sure you’ve encountered a webpage where at the bottom of the page it says “click here to jump to top of page”. You can use an ID to perform this action and ones similar. Here is an example of the syntax: </p> 
+  <img src="%23jump.png" alt="ID function" width="35%">
+  <p>To use an ID selector in CSS you can specify it by the use of a pound sign (#). An example of the syntax can be seen here:</p>
+    <img src="ID%20ex.png" alt="ID example" width="25%">
+<br>
+  <p>A few rules regarding <em>id </em>s:</p>
+    <ul align="left">
+  <li>- There can only be one per page of HTML.</li>
+  <li>-	IDs are case sensitive.</li>
+  <li>-	They must contain a letter and not begin with a number.</li>
+  <li>-	They must not contain white space, for multiple words use a hyphen. </li>
+  <li>-	Are important when it comes to implementing JavaScript which we’ll cover in future Sprints.</li>
+    </ul>
+</div>
+
+
+</body>
+</html>
+
+
