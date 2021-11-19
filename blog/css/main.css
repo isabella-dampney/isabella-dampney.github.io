@@ -33,7 +33,7 @@ li a {
     text-decoration-color: blueviolet;
   }
 html {
-    cursor: url(/blog/taxi.png), pointer;
+    cursor: url('file:///Users/macpro/Desktop/Dev-Foundations/isabella-dampneyrepo/isabella-dampney/blog/taxi.png'), pointer;
 }
 .shark {
     height: 20%;
@@ -73,10 +73,10 @@ a {
     padding: 20px;
 }
 .content-list {
-    cursor:  url(../blog/starfish.png), pointer;
+    cursor:  url('file:///Users/macpro/Desktop/Dev-Foundations/isabella-dampneyrepo/isabella-dampney/blog/starfish.png'), pointer;
 }
 .Homepage {
-    cursor:  url(../blog/starfish.png), pointer;
+    cursor:  url('file:///Users/macpro/Desktop/Dev-Foundations/isabella-dampneyrepo/isabella-dampney/blog/starfish.png'), pointer;
 }
 
 .class-id {
